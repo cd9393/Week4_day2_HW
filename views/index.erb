@@ -1,0 +1,10 @@
+<h1> ALL THE PIZZA'S</h1>
+<%# this is a comment for an erb file %>
+
+<% for order in @orders %>
+  <p> Name : <%= order.pretty_name()%></p>
+  <p> Order: <%= order.topping%> Quanity: <%= order.quantity%> </p>
+  <p> <a href= "pizza-orders/<%= order.id%>"> Show Order </a></p>
+  
+<% end %>
+<%# every line of ruby code requires an ice-cream cone%>
