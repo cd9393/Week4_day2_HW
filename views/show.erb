@@ -4,6 +4,7 @@
 <p> Order: <%= @order.topping()%> </p>
 <p>Quantity: <%= @order.quantity%></p>
 
+<%# post requests can only be carried out from a form%>
 <form method="post"action="/pizza-orders/<%=@order.id%>/destroy">
   <input type="submit" value="Delete Order"/>
 </form>

@@ -1,15 +1,18 @@
 body {
   background-color: #f1f1f1;
+  background-image:"pizza.jpeg";
+  background-size: cover;
 }
 
 h1 {
   text-align:center;
   color: black;
-  font: helvetica;
+  font-family: "Helvetica", sans-serif;
 }
 
 li {
   display: inline;
+  padding: 20px;
 }
 
 img {

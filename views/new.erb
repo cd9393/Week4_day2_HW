@@ -15,7 +15,7 @@
   <label for="quantity">Quantity:</label>
   <input id="quantity" type="number" name="quantity"/>
 
-  <input type="submit" value="Order Pizza"/>
+  <input type="submit" value="Order Pizza" min="1"/> <%# min / max can be used to prevent users to enter silly values however developers can easily get around this so this should be prevented in the sinatra code.%>
 
 
 
